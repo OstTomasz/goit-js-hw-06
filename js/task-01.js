@@ -1,0 +1,21 @@
+const items = categories.querySelectorAll(".item").length;
+const animals = categories.firstElementChild;
+const animalsName = animals.firstElementChild.innerHTML;
+const numberOfAnimals = animals.querySelectorAll("li").length;
+const products = animals.nextElementSibling;
+const productsName = products.firstElementChild.innerHTML;
+const numberOfProducts = products.querySelectorAll("li").length;
+const technologies = categories.lastElementChild;
+const technologiesName = technologies.firstElementChild.innerHTML;
+const numberOfTechnologies = technologies.querySelectorAll("li").length;
+
+console.log(`Number of categories: ${items}`);
+console.log("");
+console.log(`Category: ${animalsName}`);
+console.log(`Elements: ${numberOfAnimals}`);
+console.log("");
+console.log(`Category: ${productsName}`);
+console.log(`Elements: ${numberOfProducts}`);
+console.log("");
+console.log(`Category: ${technologiesName}`);
+console.log(`Elements: ${numberOfTechnologies}`);
